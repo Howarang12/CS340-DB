@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Posts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="users.html">Users</a>
+            <a href="groups.html">Groups</a>
+            <a href="posts.html">Posts</a>
+            <a href="comments.html">Comments</a>
+            <a href="likes.html">Likes</a>
+            <a href="userGroups.html">userGroups</a>
+        </div>
+    </nav>
+    <h1>Posts</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>postID</th>
+                <th>description</th>
+                <th>Users_userID</th>
+                <th>createdAt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</td>
+                <td>jdoe</td>
+                <td>2024-02-15</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sed ut perspiciatis unde omnis iste natus error sit voluptatem...</td>
+                <td>janed</td>
+                <td>2024-02-15</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>At vero eos et accusamus et iusto odio dignissimos ducimus...</td>
+                <td>fbar</td>
+                <td>2024-02-15</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Add a New Post</h2>
+    <form id="add-post">
+        <input type="text" name="postID" placeholder="postID">
+        <input type="text" name="description" placeholder="description">
+        <input type="text" name="Users_userID" placeholder="Users_userID">
+        <input type="text" name="createdAt" placeholder="createdAt">
+        <input type="submit" value="Add Post">
+    </form>
+    <h2>Update Post</h2>
+    <form id="update-post">
+        <input type="text" name="postID" placeholder="postID">
+        <input type="text" name="description" placeholder="description">
+        <input type="text" name="Users_userID" placeholder="Users_userID">
+        <input type="text" name="createdAt" placeholder="createdAt">
+        <input type="submit" value="Update Post">
+    </form>
+    <h2>Delete Post</h2>
+    <form id="delete-post">
+        <input type="text" name="postID" placeholder="postID">
+        <input type="text" name="Users_userID" placeholder="Users_userID">
+        <input type="submit" value="Delete Post">
+    </form>
+</body>
+</html>

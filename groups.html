@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Groups</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="users.html">Users</a>
+            <a href="groups.html">Groups</a>
+            <a href="posts.html">Posts</a>
+            <a href="comments.html">Comments</a>
+            <a href="likes.html">Likes</a>
+            <a href="userGroups.html">userGroups</a>
+        </div>
+    </nav>
+    <h1>Groups</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>groupID</th>
+                <th>groupName</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>CS361</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CS340</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>CS325</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Add a New Group</h2>
+    <form id="add-group">
+        <input type="text" name="groupID" placeholder="groupID">
+        <input type="text" name="groupName" placeholder="groupName">
+        <input type="submit" value="Add Group">
+    </form>
+    <h2>Update Group</h2>
+    <form id="update-group">
+        <select name="groupID">
+            <option value="">Select Group ID</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <input type="text" name="groupName" placeholder="groupName">
+        <input type="submit" value="Update Group">
+    </form>
+    <h2>Delete Group</h2>
+    <form id="delete-group">
+        <select name="groupID">
+            <option value="">Select Group ID</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <input type="submit" value="Delete Group">
+    </form>
+</body>
+</html>

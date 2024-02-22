@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Groups</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="users.html">Users</a>
+            <a href="groups.html">Groups</a>
+            <a href="posts.html">Posts</a>
+            <a href="comments.html">Comments</a>
+            <a href="likes.html">Likes</a>
+            <a href="userGroups.html">userGroups</a>
+        </div>
+    </nav>
+    <h1>Groups</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Users_userID</th>
+                <th>Groups_groupID</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Add a New userGroup</h2>
+    <form id="add-userGroup">
+        <input type="text" name="Users_userID" placeholder="Users_userID">
+        <input type="text" name="Groups_groupID" placeholder="Groups_groupID">
+        <input type="submit" value="Add userGroup">
+    </form>
+    <h2>Update userGroup</h2>
+    <form id="update-userGroup">
+        <input type="text" name="Users_userID" placeholder="Users_userID">
+        <input type="text" name="Groups_groupID" placeholder="Groups_groupID">
+        <input type="submit" value="Update userGroup">
+    </form>
+    <h2>Delete userGroup</h2>
+    <form id="delete-userGroup">
+        <input type="text" name="Users_userID" placeholder="Users_userID">
+        <input type="text" name="Groups_groupID" placeholder="Groups_groupID">
+        <input type="submit" value="Delete userGroup">
+    </form>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="users.html">Users</a>
+            <a href="groups.html">Groups</a>
+            <a href="posts.html">Posts</a>
+            <a href="comments.html">Comments</a>
+            <a href="likes.html">Likes</a>
+            <a href="userGroups.html">userGroups</a>
+        </div>
+    </nav>
+    <h1>Comments</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>commentID</th>
+                <th>commentText</th>
+                <th>Posts_postID</th>
+                <th>Users_userID</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Hello Post 1!</td>
+                <td>1</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hello Post 2!</td>
+                <td>2</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hello Post 3!</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Add a New Comment</h2>
+    <form id="add-comment">
+        <input type="text" name="commentID" placeholder="commentID">
+        <input type="text" name="commentText" placeholder="commentText">
+        <input type="text" name="Posts_postID" placeholder="Posts_postID">
+        <input type="text" name="Users_userID" placeholder="Users_userID">
+        <input type="submit" value="Add Comment">
+    </form>
+    <h2>Update Comment</h2>
+    <form id="update-comment">
+        <input type="text" name="commentID" placeholder="commentID">
+        <input type="text" name="commentText" placeholder="commentText">
+        <input type="text" name="Posts_postID" placeholder="Posts_postID">
+        <input type="text" name="Users_userID" placeholder="Users_userID">
+        <input type="submit" value="Update Comment">
+    </form>
+    <h2>Delete Comment</h2>
+    <form id="delete-comment">
+        <input type="text" name="commentID" placeholder="commentID">
+        <input type="text" name="Posts_postID" placeholder="Posts_postID">
+        <input type="text" name="Users_userID" placeholder="Users_userID">
+        <input type="submit" value="Delete Comment">
+    </form>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="users.html">Users</a>
+            <a href="groups.html">Groups</a>
+            <a href="posts.html">Posts</a>
+            <a href="comments.html">Comments</a>
+            <a href="likes.html">Likes</a>
+            <a href="userGroups.html">userGroups</a>
+        </div>
+    </nav>
+    <h1>Users</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>userID</th>
+                <th>Email</th>
+                <th>Username</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>example@email.com</td>
+                <td>user1</td>
+                <td>John</td>
+                <td>Doe</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>janedoe@gmail.com</td>
+                <td>janed</td>
+                <td>Jane</td>
+                <td>Doe</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>foobar@gmail.com</td>
+                <td>fbar</td>
+                <td>Foo</td>
+                <td>Bar</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>wanghow@oregonstate.edu</td>
+                <td>wanghow</td>
+                <td>Howard</td>
+                <td>Wang</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Add a New User</h2>
+    <form id="add-user">
+        <input type="text" name="userID" placeholder="userID">
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="username" placeholder="Username">
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name">
+        <input type="submit" value="Add User">
+    </form>
+    <h2>Update User</h2>
+    <form id="update-user">
+        <select name="userID">
+            <option value="">Select User ID</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="username" placeholder="Username">
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name">
+        <input type="submit" value="Update User">
+    </form>
+    <h2>Delete User</h2>
+    <form id="delete-user">
+        <select name="userID">
+            <option value="">Select User ID</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <input type="text" name="username" placeholder="Username">
+        <input type="submit" value="Delete User">
+    </form>
+</body>
+</html>

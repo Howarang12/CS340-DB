@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    margin-right: 10px;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+}
